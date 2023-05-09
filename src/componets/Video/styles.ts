@@ -1,10 +1,17 @@
 import { motion } from "framer-motion";
 import styled from "styled-components";
 
-export const MainContainer = styled.div``;
+export const MainContainer = styled.div`
+
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+`;
 
 export const TitleContainer = styled(motion.div)`
   display: flex;
+  align-items: center;
   justify-content: center;
   flex-direction: column;
   margin-top: 3rem;
@@ -16,6 +23,7 @@ export const TitleContainer = styled(motion.div)`
   margin-left: 1rem;
   margin-right: 1rem;
   line-height: 5rem;
+  max-width: 1000px;
 
   @media screen and (max-width: 600px) {
     font-size: ${({ theme }) => theme.fontSizes.small};
@@ -53,7 +61,7 @@ export const VideoUrl = styled.video`
 
 export const Span = styled(motion.span)`
   font-family: ${({ theme }) => theme.fonts.montserrat};
-  color: ${({ theme }) => theme.colors.primaryLight};
+  color: blue;
   font-size: ${({ theme }) => theme.fontSizes.medium};
   width: 90%;
   margin:0 auto;
@@ -66,3 +74,16 @@ export const Span = styled(motion.span)`
     line-height: 2rem;
   }
 `;
+
+
+export const SpanBold = styled.span`
+ font-family: ${({ theme }) => theme.fonts.montserrat};
+  color: white;
+  font-size: ${({ theme }) => theme.fontSizes.medium};
+  font-weight: 900;
+  @media screen and (max-width: 600px) {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+
+`

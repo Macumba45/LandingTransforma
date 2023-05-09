@@ -4,7 +4,7 @@ import { MainContainer, NavBarContent } from "./style";
 const NavBar: FC = () => {
   return (
     <MainContainer>
-      <NavBarContent>VIRGINIA HIDALGO</NavBarContent>
+      {/* <NavBarContent>VIRGINIA HIDALGO</NavBarContent> */}
     </MainContainer>
   );
 };

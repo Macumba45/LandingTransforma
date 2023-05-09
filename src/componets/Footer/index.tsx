@@ -22,9 +22,9 @@ const Footer: FC = () => {
           width: "350px",
           height: "50px",
           margin: "2rem auto",
-          backgroundColor: "#E1226B",
+          backgroundColor: "#ff00ba;",
           color: "#fff",
-          "&:hover": { backgroundColor: "#6c032b", color: "#ffffff" },
+          "&:hover": { backgroundColor: "#ff00ba", color: "#ffffff" },
         }}
         variant="contained"
         endIcon={<SendIcon />}
@@ -32,8 +32,8 @@ const Footer: FC = () => {
         Agenda tu Consultoría GRATUITA
       </Button>
       <Copyrights>
-        <WebLink href="https://virginiahidalgo.es">virginiahidalgo.es</WebLink>
-        .&nbsp;Copyright 2023.&nbsp;All Rights Reserved.
+        {/* <WebLink href="https://virginiahidalgo.es">virginiahidalgo.es</WebLink> */}
+        &nbsp;Copyright 2023.&nbsp;All Rights Reserved.
       </Copyrights>
     </MainContainer>
   );

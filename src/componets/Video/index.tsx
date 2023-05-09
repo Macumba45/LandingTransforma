@@ -6,6 +6,7 @@ import {
   VideoContainer,
   VideoUrl,
   Span,
+  SpanBold,
 } from "./styles";
 
 const Video: FC = () => {
@@ -50,66 +51,49 @@ const Video: FC = () => {
     <MainContainer>
       <TitleContainer>
         <motion.div variants={titleVariants} initial="hidden" animate="visible">
-          <motion.span variants={letterVariants}>D</motion.span>
-          <motion.span variants={letterVariants}>e</motion.span>
-          <motion.span variants={letterVariants}>s</motion.span>
-          <motion.span variants={letterVariants}>c</motion.span>
-          <motion.span variants={letterVariants}>u</motion.span>
-          <motion.span variants={letterVariants}>b</motion.span>
-          <motion.span variants={letterVariants}>r</motion.span>
-          <motion.span variants={letterVariants}>e</motion.span>
+          <motion.span variants={letterVariants}>Como</motion.span>
           <motion.span variants={letterVariants}> </motion.span>
-          <motion.span variants={letterVariants}>l</motion.span>
-          <motion.span variants={letterVariants}>a</motion.span>
+          <motion.span variants={letterVariants}>crear</motion.span>
           <motion.span variants={letterVariants}> </motion.span>
-          <motion.span variants={letterVariants}>n</motion.span>
-          <motion.span variants={letterVariants}>u</motion.span>
-          <motion.span variants={letterVariants}>e</motion.span>
-          <motion.span variants={letterVariants}>v</motion.span>
-          <motion.span variants={letterVariants}>a</motion.span>
+          <motion.span variants={letterVariants}>un</motion.span>
           <motion.span variants={letterVariants}> </motion.span>
-          <motion.span variants={letterVariants}>p</motion.span>
-          <motion.span variants={letterVariants}>r</motion.span>
-          <motion.span variants={letterVariants}>o</motion.span>
-          <motion.span variants={letterVariants}>f</motion.span>
-          <motion.span variants={letterVariants}>e</motion.span>
-          <motion.span variants={letterVariants}>s</motion.span>
-          <motion.span variants={letterVariants}>i</motion.span>
-          <motion.span variants={letterVariants}>ó</motion.span>
-          <motion.span variants={letterVariants}>n</motion.span>
+          <motion.span variants={letterVariants}>puesto</motion.span>
           <motion.span variants={letterVariants}> </motion.span>
-          <motion.span variants={letterVariants}>c</motion.span>
-          <motion.span variants={letterVariants}>o</motion.span>
-          <motion.span variants={letterVariants}>n</motion.span>
+          <motion.span variants={letterVariants}>de</motion.span>
           <motion.span variants={letterVariants}> </motion.span>
-          <motion.span variants={letterVariants}>l</motion.span>
-          <motion.span variants={letterVariants}>a</motion.span>
+          <motion.span variants={letterVariants}>trabajo</motion.span>
           <motion.span variants={letterVariants}> </motion.span>
-          <motion.span variants={letterVariants}>q</motion.span>
-          <motion.span variants={letterVariants}>u</motion.span>
-          <motion.span variants={letterVariants}>e</motion.span>
+          <motion.span variants={letterVariants}>de</motion.span>
           <motion.span variants={letterVariants}> </motion.span>
-          <motion.span variants={letterVariants}>p</motion.span>
-          <motion.span variants={letterVariants}>u</motion.span>
-          <motion.span variants={letterVariants}>e</motion.span>
-          <motion.span variants={letterVariants}>d</motion.span>
-          <motion.span variants={letterVariants}>e</motion.span>
-          <motion.span variants={letterVariants}>s</motion.span>
+          <motion.span variants={letterVariants}>entre</motion.span>
           <motion.span variants={letterVariants}> </motion.span>
-          <motion.span variants={letterVariants}>g</motion.span>
-          <motion.span variants={letterVariants}>a</motion.span>
-          <motion.span variants={letterVariants}>n</motion.span>
-          <motion.span variants={letterVariants}>a</motion.span>
-          <motion.span variants={letterVariants}>r</motion.span>
+          <motion.span variants={letterVariants}><SpanBold>500€ a 1000€</SpanBold></motion.span>
           <motion.span variants={letterVariants}> </motion.span>
-          <motion.span variants={letterVariants}>e</motion.span>
-          <motion.span variants={letterVariants}>n</motion.span>
-          <motion.span variants={letterVariants}>t</motion.span>
-          <motion.span variants={letterVariants}>r</motion.span>
-          <motion.span variants={letterVariants}>e</motion.span>
-          <motion.span variants={letterVariants}>.</motion.span>
-          <motion.span variants={letterVariants}>.</motion.span>
-          <motion.span variants={letterVariants}>.</motion.span>
+          <motion.span variants={letterVariants}>por</motion.span>
+          <motion.span variants={letterVariants}> </motion.span>
+          <motion.span variants={letterVariants}>fin</motion.span>
+          <motion.span variants={letterVariants}> </motion.span>
+          <motion.span variants={letterVariants}>de</motion.span>
+          <motion.span variants={letterVariants}> </motion.span>
+          <motion.span variants={letterVariants}>semana</motion.span>
+          <motion.span variants={letterVariants}> </motion.span>
+          <motion.span variants={letterVariants}>en</motion.span>
+          <motion.span variants={letterVariants}> </motion.span>
+          <motion.span variants={letterVariants}>menos</motion.span>
+          <motion.span variants={letterVariants}> </motion.span>
+          <motion.span variants={letterVariants}>de</motion.span>
+          <motion.span variants={letterVariants}> </motion.span>
+          <motion.span variants={letterVariants}>90 días</motion.span>
+          <motion.span variants={letterVariants}> </motion.span>
+          <motion.span variants={letterVariants}>en</motion.span>
+          <motion.span variants={letterVariants}> </motion.span>
+          <motion.span variants={letterVariants}>el</motion.span>
+          <motion.span variants={letterVariants}> </motion.span>
+          <motion.span variants={letterVariants}>sector</motion.span>
+          <motion.span variants={letterVariants}> </motion.span>
+          <motion.span variants={letterVariants}>del</motion.span>
+          <motion.span variants={letterVariants}> </motion.span>
+          <motion.span variants={letterVariants}>bienestar</motion.span>
         </motion.div>
         <AnimatePresence>
           <Span
@@ -122,7 +106,7 @@ const Video: FC = () => {
             }}
             transition={{ duration: 2 }}
           >
-            3000€ y 5000€ al mes
+            ¡Pide tu cita ya!
           </Span>
         </AnimatePresence>
       </TitleContainer>
